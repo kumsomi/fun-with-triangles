@@ -5,15 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypotenuse</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Calculate Hypotenuse</h1>
-    <label for="">a = </label>
-    <input type="number" class="side-input">
-    <label for="">b= </label>
-    <input type="number" class="side-input">
-    <button id="hypotenuse-btn">Calculate hypotenuse</button>
-    <div id="output"></div>
+    <nav class="navigation">
+        <div class="nav-brand">fun With Triangles</div>
+        <ul class="non-bullet nav-pills">
+            <li class="list-item-inline"><a class="link"  href="index.html">Is triangle?</a></li>
+            <li class="list-item-inline"><a class="link" href="quiz.html">Triangle-Quiz</a></li>
+            <li class="list-item-inline"><a class="link link-active" href="hypotenuse.html">Calculate-Hypotenuse</a></li>
+            <li class="list-item-inline"><a class="link" href="area.html">Area</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <h1>Calculate Hypotenuse</h1>
+        <label for="">Length of first side
+            <input type="number" class="side-input">
+        </label>
+        
+        <label for="">Length of second side
+            <input type="number" class="side-input">
+        </label>
+        
+        <button id="hypotenuse-btn">Calculate hypotenuse</button>
+        <div id="output"></div>
+    </main>
+    
+    <footer class="footer">
+        <h3>Let's connect</h3>
+        <ul class="non-bullet">
+            <li class="list-item-inline"><a href="https://github.com/KumSomi"><span class="fab fa-github-square"></span>github</a></li>
+            <li class="list-item-inline"><a href="https://twitter.com/somi_kaushik"><span class="fab fa-twitter-square"></span> twitter</a></li>
+            <li class="list-item-inline"><a href="https://www.linkedin.com/in/kum-somi-25aa8a152/"><span class="fab fa-linkedin"></span>linkedin</a></li>
+        </ul>
+    </footer>
 </body>
 <script src="hypotenuse.js"></script>
 </html>

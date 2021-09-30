@@ -45,16 +45,30 @@ body{
 }
 
 .container{
-    width:40%;
+    width:60%;
     margin: auto;
     padding: 2rem;
     margin-top: 4rem;
-    /* margin-bottom: 4rem; */
+    margin-bottom: 4rem;
 }
 
 h1{
     text-align: center;
+    margin-bottom: 2rem;
 }
+
+.question-container{
+    border: 1px solid var(--secondary-color);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin:2rem;
+}
+
+input, label{
+    padding: 1rem;
+    margin:1rem;
+}
+/*
 input, label{
     display: block;
     font-size: 1rem; 
@@ -73,8 +87,7 @@ input{
 input{
     margin-bottom: 0.5rem;
     width: 100%
-    /* it'll take the 100% width of its parent element */
-}
+} */
 
 button{
     display: block;

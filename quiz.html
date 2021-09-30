@@ -6,41 +6,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triangle Quiz</title>
+    <link rel="stylesheet" href="style1.css">
 </head>
 
 <body>
-    <h1>triangle Quiz</h1>
+
+    <nav class="navigation">
+        <div class="nav-brand">fun With Triangles</div>
+        <ul class="non-bullet nav-pills">
+            <li class="list-item-inline"><a class="link"  href="index.html">Is triangle?</a></li>
+            <li class="list-item-inline"><a class="link link-active" href="quiz.html">Triangle-Quiz</a></li>
+            <li class="list-item-inline"><a class="link " href="hypotenuse.html">Calculate-Hypotenuse</a></li>
+            <li class="list-item-inline"><a class="link" href="area.html">Area</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+
+        <h1>triangle Quiz</h1>
 
     <form action="" class="quiz-form">
         <!-- here in radio button we choose same name for the radio buttons in order to make the options for one set of question -->
         <div class="question-container">
-            <p>What is the third angle of a triangle where angle1=45° and angle2=45°</p>
-            <label for="">
-                <input type="radio" value="45" name="question1" id="">45°
+            <p>1. What is the third angle of a triangle where angle1=45° and angle2=45°</p>
+            <label for="ip">
+                <input type="radio" value="45" name="question1" id="ip">45°
             </label>
-            <label for="">
-                <input type="radio" value="60" name="question1" id="">60°
+            <label for="ip">
+                <input type="radio" value="60" name="question1" id="ip">60°
             </label>
-            <label for="">
-                <input type="radio" value="90" name="question1" id="">90°
+            <label for="ip">
+                <input type="radio" value="90" name="question1" id="ip">90°
             </label>
         </div>
 
         <div class="question-container">
-            <p>If a triangle has an angle of 90°, what is it called?</p>
-            <label for="">
-                <input type="radio" value="acute" name="question2" id="">acute
+            <p>2. If a triangle has an angle of 90°, what is it called?</p>
+            <label for="ip">
+                <input type="radio" value="acute" name="question2" id="ipip">acute
             </label>
-            <label for="">
-                <input type="radio" value="obtuse" name="question2" id="">obtuse
+            <label for="ip">
+                <input type="radio" value="obtuse" name="question2" id="ip">obtuse
             </label>
-            <label for="">
-                <input type="radio" value="right angled" name="question2" id="">right angled
+            <label for="ip">
+                <input type="radio" value="right angled" name="question2" id="ip">right angled
+            </label>
+        </div>
+
+        <div class="question-container">
+            <p>3. The perimeter of scalene triangle with sides a, b, c is?</p>
+            <label for="ip">
+                <input type="radio" value="a+b+c" name="question3" id="ipip">a+b+c
+            </label>
+            <label for="ip">
+                <input type="radio" value="2a" name="question3" id="ip">2a
+            </label>
+            <label for="ip">
+                <input type="radio" value="None of these" name="question3" id="ip">None of these
+            </label>
+        </div>
+
+        <div class="question-container">
+            <p>4. A scalene triangle has how many lines of symmetry?</p>
+            <label for="ip">
+                <input type="radio" value="two" name="question4" id="ipip">two
+            </label>
+            <label for="ip">
+                <input type="radio" value="one" name="question4" id="ip">one
+            </label>
+            <label for="ip">
+                <input type="radio" value="no" name="question4" id="ip">no
             </label>
         </div>
     </form>
     <button id="submit-answer-btn">Submit answers</button>
     <div id="output"></div>
+    </main>
+
+    <footer class="footer">
+        <h3>Let's connect</h3>
+        <ul class="non-bullet">
+            <li class="list-item-inline"><a href="https://github.com/KumSomi"><span class="fab fa-github-square"></span>github</a></li>
+            <li class="list-item-inline"><a href="https://twitter.com/somi_kaushik"><span class="fab fa-twitter-square"></span> twitter</a></li>
+            <li class="list-item-inline"><a href="https://www.linkedin.com/in/kum-somi-25aa8a152/"><span class="fab fa-linkedin"></span>linkedin</a></li>
+        </ul>
+    </footer>
 </body>
 <script src="quiz.js"></script>
 </html>
