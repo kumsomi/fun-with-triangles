@@ -3,7 +3,7 @@ const quizForm = document.querySelector(".quiz-form");
 const outputE2 = document.querySelector("#output");
 
 //data structure for storinf the right answers in the same manner as the numbering of questions
-const correctAnswers = ["90", "right angled"];
+const correctAnswers = ["90", "right angled", "a+b+c", "no"];
 
 function calculateScore(){
     let score=0;
